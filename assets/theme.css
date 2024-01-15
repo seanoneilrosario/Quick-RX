@@ -20180,8 +20180,28 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .collection_template .grid-item.none,
-.collection_template .grid-item.nodis {
+.collection_template .grid-item.nodis,
+.collection_template .grid-item.unview {
   display: none;
+}
+
+.product_search_form form {
+  position: relative;
+}
+
+.product_search_form form input {
+  margin: 0;
+  padding-right: 90px;
+}
+
+.product_search_form form button {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  background: #2d4d7c;
+  border: none;
+  color: #fff;
+  padding: 0 20px;
 }
 
 .add-to-wishlist {

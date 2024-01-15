@@ -1399,6 +1399,34 @@ main.main-content {
     padding: 0 !important;
 }
 
+.collection_template .section-header {
+  flex-wrap: wrap;
+}
+
+.collection_template .section-header,
+.product_search_form form {
+  display: flex;
+}
+
+.product_search_form form {
+  min-width: 300px;
+}
+
+.collection_template .section-header {
+  gap: 10px;
+}
+
+.wrap_toggle_filter {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media(min-width: 900px) {
+  .collection_template .section-header {
+    flex-wrap: nowrap;
+  }
+}
+
 
 
 /* White Boxes */

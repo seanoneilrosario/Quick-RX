@@ -1153,3 +1153,27 @@ $(my_url).click(function(e){
   }
   openInNewTab($this.attr('href'))
 });
+
+
+
+
+
+// Search Filter for products
+const products = $('.products-grid-view .grid-item');
+const form = $('.product_search_form form');
+const inputSearch = $('.product_search_form form input');
+form.on('submit', function(e) {
+  const removeSpecialChar = inputSearch[0].value.replaceAll('(', "");
+  const removeSpecialChar2 = removeSpecialChar.replaceAll(')', "");
+  const removeSpecialChar3 = removeSpecialChar2.replaceAll('/', "-");
+  const removeSpecialChar4 = removeSpecialChar3.replaceAll(' ', "-")
+  const inputValue = removeSpecialChar4.toLowerCase();
+  e.preventDefault();
+  products.map((e, item) => {
+    item.classList.add('unview');
+    if(item.classList[0].includes(`${inputValue}`)) {
+      console.log(item)
+      item.classList.remove('unview')
+    }
+  })
+});
