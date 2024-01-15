@@ -85,6 +85,7 @@
     <script src="{{ 'jquery.hoverdir.js' | asset_url }}" defer="defer"></script>  
     {% capture 'productMetaFields' %}
       {
+        {% paginate collections["all-products"].products by 1000 %}
           {% for product in collections["all-products"].products %}
             
               "{{ product.handle }}" : {
@@ -102,6 +103,7 @@
               },
           
           {% endfor %}
+        {% endpaginate %}
       }
   {% endcapture %}
   
