@@ -5,7 +5,7 @@ html {
 body {
     color: #2B2928;
     font-family: "Outfit", Sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
     line-height: 1.8;
     background-color: #fff !important;
@@ -1775,4 +1775,18 @@ main.main-content {
   width: 26px;
   height: 26px;
   fill: #fff;
+}
+
+
+
+/* Product */
+.product__media, .product__media img:first-of-type {
+    height: 350px;
+    object-fit: contain;
+}
+
+@media (min-width: 990px) {
+    .product__media, .product__media img:first-of-type {
+        height: 400px;
+    }
 }

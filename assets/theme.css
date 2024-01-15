@@ -15078,7 +15078,7 @@ a.filter-left {
   text-align: left;
   background: #fff;
   width:300px;
-  height: 100%;
+  height: calc(100% - 115px);
   overflow-y: auto;
 }
 .menu-opening .mobile-facets__inner{
