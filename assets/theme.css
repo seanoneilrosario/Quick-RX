@@ -11367,6 +11367,10 @@ ul.nav-tabs.jquery-tab-pager-tabbar {
   color:var(--color-text);
     font-weight:500;
     }
+.compare-item-link img {
+  height: 300px;
+  object-fit: contain;
+}
 .compare_table .compare-box .productname td a.compare-item-link{
   font: 500 14px/20px var(--font-stack-body);
     color: var(--color-btn-primary);
@@ -11933,7 +11937,7 @@ body .compare-model .max_compare {
     padding: 0 10px;
   }
   .product-price__price,.product-price__price .money,.price,price .money{
-    font-size: 12px;
+    font-size: 16px;
   }
   .product-price__price.compare_price .money,
   .product-price__price.compare_price{
@@ -12145,7 +12149,7 @@ a.product-lightbox-btn.tip-top img {
   padding-top: 0;
 }
 a.grid-link__title {
-  font: 500 14px/16px var(--font-stack-body);
+  font: 500 16px/18px var(--font-stack-body);
     float: left;
     width: 100%;
     text-align: left;
@@ -12182,8 +12186,8 @@ a.grid-link__title {
     margin-right: -15px;
   }
   a.grid-link__title {
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 16px;
+    line-height: 16px;
   }
 }
 /*================ This hacks all the grid-items in IE8 and below ================*/

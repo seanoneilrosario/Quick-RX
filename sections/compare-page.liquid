@@ -117,6 +117,9 @@
     catch(err){}
     function emptycompare(){$(".compare_table").css('display', 'none');$(".table-responsive").append("<div class='compare-empty tc'>{{ 'products.compare.compare-empty' | t }}</div>")}
                                                                                                      function compare_product(product){
+      var metafields = productMetaFields[product.handle];
+      console.log(metafields)
+      console.log(product.handle)
       $(".compare_table").css('display', 'block');
       var $cloneitem=$(".compare-item1").clone();
       $cloneitem.find(".compare-item-link").attr("href",product.url);
@@ -128,7 +131,7 @@
       $cloneitemname.find(".compare-item-link").attr("href",product.url);
       $cloneitemname.find(".compare-item-link").text(product.title);
       $cloneitemdesc.find(".compare-item-des").html(product.description);
-      $cloneitemtype.find(".compare-in-type").text(product.type);
+      $cloneitemtype.find(".compare-in-type").text(metafields.product_type);
       $cloneitemvender.find(".compare-in-vender").text(product.vendor);
       var $cloneitemprice=$(".table-compare-1__product-price");
       $cloneitemprice.html(Shopify.formatMoney(product.price, window.money_format));
