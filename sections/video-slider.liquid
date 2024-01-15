@@ -1,0 +1,61 @@
+<div>
+  <h2>{{ section.settings.title }}</h2>
+  <div class="img_slider">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.video_url }}" class="img_slide">
+        <img src="{{ block.settings.icon_image | img_url: 'master' }}" />
+        <span>{{ section.settings.title }}</span>
+        <h4>{{ block.settings.title }}</h4>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  body.education-centre .page-wrapper main.main-content {
+    background: #fff;
+  }
+</style>
+
+
+{% schema %} 
+  {
+    "name": "Video Slider",
+    "class": "img_slider_wrap",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "icons",
+        "name": "Icons with Text",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon_image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "video_url",
+            "label": "Video URL"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+          "name": "Video Slider"
+        }
+    ]
+  }
+{% endschema %}

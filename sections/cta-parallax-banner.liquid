@@ -1,0 +1,53 @@
+<div class="cta-parallax-banner container--narrow">
+    <div class="parallax_wrapper">
+        <div class="parallax_content-wrap">
+            <h4>
+                {{ section.settings.heading }}
+            </h4>
+            {{ section.settings.content }}
+            <a class="btn_primary" href="{{ section.settings.button_link }}">{{ section.settings.button_title }}</a>
+        </div>
+        <img src="{{ section.settings.image_parallax | img_url: 'master' }}" />
+    </div>
+</div>
+
+{%- schema -%}
+    {
+        "name": "CTA Parallax Banner",
+        "tag": "section",
+        "class": "cta-parallax-banner_wrap",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image_parallax",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "heading",
+                "label": "Heading"
+            },
+            {
+                "type": "richtext",
+                "id": "content",
+                "label": "Text Contents"
+            },
+            {
+                "type": "text",
+                "id": "button_title",
+                "label": "Button Title"
+            },
+            {
+                "type": "url",
+                "id": "button_link",
+                "label": "Button link"
+            }
+        ],
+        "presets": [
+            {
+                "name": "CTA Parallax Banner",
+                "settings": {}
+            }
+        ]
+    }
+{%- endschema -%}

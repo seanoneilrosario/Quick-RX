@@ -1,0 +1,55 @@
+<div>
+  <h2>{{ section.settings.title }}</h2>
+  <div class="downloadables">
+    {% for block in section.blocks %}
+      <a href="{{ block.settings.video_url }}" class="dl">
+        <img src="{{ block.settings.icon_image | img_url: 'master' }}" />
+        <span>{{ section.settings.title }}</span>
+        <h4>{{ block.settings.title }}</h4>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Downloadables",
+    "class": "downloadables_wrap",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "downloadable",
+        "name": "Downloadable",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "icon_image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "video_url",
+            "label": "Video URL"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          }
+        ]
+      }
+    ],
+    "presets": [
+        {
+          "name": "Downloadables"
+        }
+    ]
+  }
+{% endschema %}
