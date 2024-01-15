@@ -15069,7 +15069,7 @@ a.filter-left {
   -moz-transform: translateX(-100px);
   -o-transform: translateX(-100px);
   -ms-transform: translateX(-100px);
-  position:absolute;
+  position:static;
   top: 115px;
   left:0;
   right: auto;
@@ -15078,7 +15078,7 @@ a.filter-left {
   text-align: left;
   background: #fff;
   width:300px;
-  height: calc(100% - 115px);
+  height: 100%;
   overflow-y: auto;
 }
 .menu-opening .mobile-facets__inner{
@@ -15115,7 +15115,7 @@ a.filter-left {
   align-items: center;
   justify-content: center;
   position: fixed;
-  top: 125px;
+  top: 10px;
   right: auto;
   opacity: 0;
   visibility:hidden;
