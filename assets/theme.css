@@ -15050,7 +15050,7 @@ a.filter-left {
   left: 0;
   bottom: 0;
   visibility: hidden;
-  z-index: 5;
+  z-index: 1000000005;
   background:#fff;
   height:100%;
 }
@@ -15120,7 +15120,7 @@ a.filter-left {
   opacity: 0;
   visibility:hidden;
   left: 10px;
-  z-index: 6;
+  z-index: 6000000000;
 }
 .mobile-facets__close i {
   float: none;
