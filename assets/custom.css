@@ -1421,7 +1421,8 @@ main.main-content {
   flex-wrap: wrap;
 }
 
-.variant-sku {
+.variant-sku,
+.product-single__vendor {
   display: flex;
 }
 
