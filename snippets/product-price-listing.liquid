@@ -42,7 +42,9 @@
   <div class="regular-price">
     <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>    
     <span class="product-price__price product-price__sale">
-      {{ money_price }}
+      <span class="product-price__price product-price__sale">
+        {{ money_price }} <sup>RRP</sup>
+      </span>
     </span>
   </div>
 </div>
