@@ -1177,3 +1177,18 @@ form.on('submit', function(e) {
     }
   })
 });
+
+
+
+
+
+// Update customer data
+$('.test_btn').click(function(){
+  fetch('https://admin.shopify.com/store/5a3e35-3/api/2024-01/customers/7001755943090/metafields.json')
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(json) {
+    console.log(json)
+  });
+});
