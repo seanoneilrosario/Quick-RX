@@ -1,76 +1,27 @@
-{% comment %}
-This template will be automatically generated for you if the file doesn't exist,
-but where's the fun in having no control? Define your layout below.
-The 'layout settings.customer_layout' line is inserted at the top of every customer account template.
-Your theme's settings determine to use the 'default' or 'theme' customer templates.
-More info:
-- http://www.tetchi.ca/shopify-theme-from-scratch-part-11/
-{% endcomment %}
-<div class="register">
-      {% comment %}
-      This form must use 'create_customer'
-      {% endcomment %}
-      {% comment %}
-      {% form 'create_customer' %}
+{% form 'create_customer' %}
+  {{ form.errors | default_errors }}
 
-      {{ form.errors | default_errors }}
+  <div class="first-name">
+    <label for="first-name">First name</label>
+    <input type="text" name="customer[first_name]">
+  </div>
 
-      <label for="first_name" class="form-label--hidden">
-        <span class="visuallyhidden">
-          {{ 'customer.register.first_name' | t }}
-        </span>
-      </label>
-      <input type="text" name="customer[first_name]" id="first_name" placeholder="{{ 'customer.register.first_name' | t }}" {% if form.first_name %}value="{{ form.first_name }}"{% endif %} autocapitalize="words" autofocus>
+  <div class="last-name">
+    <label for="last-name">Last name</label>
+    <input type="text" name="customer[last_name]">
+  </div>
 
-      <label for="last_name" class="form-label--hidden">
-        <span class="visuallyhidden">
-          {{ 'customer.register.last_name' | t }}
-        </span>
-      </label>
-      <input type="text" name="customer[last_name]" id="last_name" placeholder="{{ 'customer.register.last_name' | t }}" {% if form.last_name %}value="{{ form.last_name }}"{% endif %} autocapitalize="words">
+  <div class="email">
+    <label for="email">Email</label>
+    <input type="email" name="customer[email]">
+  </div>
 
-      <label for="email" class="form-label--hidden">
-        <span class="visuallyhidden">
-          {{ 'customer.register.email' | t }}
-        </span>
-      </label>
-      <input type="email" name="customer[email]" id="email" placeholder="{{ 'customer.register.email' | t }}" {% if form.errors contains "email" %} class="error"{% elsif form.email %} value="{{ form.email }}"{% endif %} autocorrect="off" autocapitalize="off">
+  <div class="password">
+    <label for="password">Password</label>
+    <input type="password" name="customer[password]">
+  </div>
 
-      <label for="password" class="form-label--hidden">
-        <span class="visuallyhidden">
-          {{ 'customer.register.password' | t }}
-        </span>
-      </label>
-      <input type="password" name="customer[password]" id="create_password" placeholder="{{ 'customer.register.password' | t }}" {% if form.errors contains "password" %} class="error"{% endif %}>
-
-      <div class="text-center">
-        <p>
-          <input type="submit" value="{{ 'customer.register.submit' | t }}" class="btn">
-        </p>
-        <a href="{{ shop.url }}"><i class="mdi mdi-chevron-left"></i> {{ 'customer.register.cancel' | t }}</a>
-      </div>
-      {% endform %}
-      {% endcomment %}
-  <iframe aria-label='Signup WooCommerce Account' frameborder="0" style="background: #fff;border-radius: 20px;margin:60px auto;height:600px;max-width:450px;width:100%;border:none;" src='https://forms.zohopublic.com.au/vapelabs/form/SignupWooCommerceAccount1/formperma/5Z9XrE-40WGsElyKXpLxTka3gUagTyKW0MCbQQjA5-Y'></iframe>
-</div>
-<script>function showRecoverPasswordForm(){document.getElementById('recover_password').style.display='block';document.getElementById('customer_login').style.display='none'}
-function hideRecoverPasswordForm(){document.getElementById('recover_password').style.display='none';document.getElementById('customer_login').style.display='block'}
-if(window.location.hash=='#recover'){showRecoverPasswordForm()}
-{%if reset_success%}
-document.getElementById('resetSuccess').style.display='block';{%endif%}</script>
-
-<style>
-  .breadcrumb-wrap {
-    display: none !important;
-  }
-
-  #shopify-section-footer-model-3,
-  footer.footer {
-    margin-top: 0 !important
-  }
-
-  .register {
-    background: #81bbe1;
-    margin-top: -20px;
-  }
-</style>
+  <div class="submit">
+    <input type="submit" value="Create">
+  </div>
+{% endform %}
