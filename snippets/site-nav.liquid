@@ -44,6 +44,12 @@
       {% endif %}
     </ul>
   </li>
+  {% if customer %}
+  {% else %}
+    <li class="menu-item-depth-0">
+      <a class="site-nav__link site-nav__linknodrop" href="/account/login">Login</a>
+    </li>
+  {% endif %}
   {% else %}
   {% if link.title == "-" %}
   <hr class="hr--small medium-down--hide">
@@ -54,10 +60,4 @@
   {% endif %}
   {% endif %}
   {% endfor %}
-  {% if customer %}
-  {% else %}
-    <li class="menu-item-depth-0">
-      <a class="site-nav__link site-nav__linknodrop" href="/account/login">Login</a>
-    </li>
-  {% endif %}
 </ul>
