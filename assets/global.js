@@ -930,14 +930,14 @@ $('.toggle_open').on( "click", function() {
 
 
 // Redirect page if not logged in
-// $(document).ready(function() {
-//   console.log(window.location.pathname)
-//    if (!$('body').hasClass("customer-logged-in")) {
-//      if (window.location.pathname == "/account/register") {
-//         window.location.replace("https://quickrx.com.au/account/login");
-//       }
-//    }
-// });
+$(document).ready(function() {
+  console.log(window.location.pathname)
+   if (!$('body').hasClass("customer-logged-in")) {
+     if (window.location.pathname == "/account/register") {
+        window.location.replace("https://quickrx.com.au/account/login");
+      }
+   }
+});
 
 
 // slider
