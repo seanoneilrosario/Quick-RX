@@ -934,7 +934,7 @@ $(document).ready(function() {
   console.log(window.location.pathname)
    if (!$('body').hasClass("customer-logged-in")) {
      if (window.location.pathname == "/account/register") {
-        window.location.replace("https://quickrx.com.au/login");
+        window.location.replace("https://quickrx.com.au/account/login");
       }
    }
 });
