@@ -174,6 +174,21 @@ For all available customer liquid tags:- http://docs.shopify.com/themes/liquid-v
             </div>
           </div>
         </div>
+        <div class="details-box">
+          <div class="edit_box">
+            <h4>ACCOUNT DETAILS</h4>
+            <a href="{{ routes.account_addresses_url }}">EDIT</a>
+          </div>
+          <div class="box-details">
+            <div class="details-contents">
+              <h5>{{ customer.first_name }} {{ customer.last_name }}</h5>
+              {% for address in customer.addresses %}
+                <p>{{ address.street }}</p>
+                <p>{% if address.province != empty %}{{ address.province }},{% endif %} {% if address.zip != empty %}{{ address.zip }},{% endif %} {{ address.country }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -515,7 +530,7 @@ For all available customer liquid tags:- http://docs.shopify.com/themes/liquid-v
 
   @media(min-width: 990px) {
     .details-box {
-      width: calc(50% - 20px);
+      width: calc(100% - 20px);
       margin: 10px;
     }
   }
