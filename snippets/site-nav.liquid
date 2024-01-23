@@ -54,4 +54,8 @@
   {% endif %}
   {% endif %}
   {% endfor %}
+  {% if customer %}
+  {% else %}
+    <a href="/account/login">Login</a>
+  {% endif %}
 </ul>
