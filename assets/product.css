@@ -217,6 +217,9 @@ div#notify span {
   width: 100%;
   margin: 0 0 30px;
 }
+.related-products-container .section-header text-center {
+  margin-left: 10px;
+}
 .related-products.owl-theme .owl-nav {
   right: 5px;
 }
