@@ -26,32 +26,32 @@
                     {{ 'contact.form.name' | t }}
                   </span>
                 </label>
-                <input required type="text" id="contactFormName" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.name' | t }}" autocapitalize="words" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.name }}{% endif %}">
+                <input required type="text" id="contactFormName" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.name' | t }}*" autocapitalize="words" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.name }}{% endif %}">
                 <label for="contactFormEmail" class="form-label--hidden">
                   <span class="visuallyhidden">
                     {{ 'contact.form.email' | t }}
                   </span>
                 </label>
-                <input required type="email" id="contactFormEmail" name="contact[email]" placeholder="{{ 'contact.form.email' | t }}" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
+                <input required type="email" id="contactFormEmail" name="contact[email]" placeholder="{{ 'contact.form.email' | t }}*" autocorrect="off" autocapitalize="off" value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}">
                 {% assign name_attr = 'contact.form.phone' | t | handle %}
                 <label for="contactFormPhone" class="form-label--hidden">
                   <span class="visuallyhidden">
                     {{ 'contact.form.phone' | t }}
                   </span>
                 </label>
-                <input required type="tel" id="contactFormPhone" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.phone' | t }}" pattern="[0-9\-]*" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
+                <input required type="tel" id="contactFormPhone" name="contact[{{ name_attr }}]" placeholder="{{ 'contact.form.phone' | t }}*" pattern="[0-9\-]*" value="{% if form[name_attr] %}{{ form[name_attr] }}{% elsif customer %}{{ customer.phone }}{% endif %}">
                 <label for="referringDoctor" class="form-label--hidden">
                   <span class="visuallyhidden">
                     Referring Doctor
                   </span>
                 </label>
-                <input required type="text" id="referringDoctor" name="contact[refdoc]" placeholder="Referring Doctor">
+                <input required type="text" id="referringDoctor" name="contact[refdoc]" placeholder="Referring Doctor*">
                 <label for="contactFormMessage" class="form-label--hidden">
                   <span class="visuallyhidden">
                     {{ 'contact.form.message' | t }}
                   </span>
                 </label>
-                <textarea rows="10" id="contactFormMessage" name="contact[body]" placeholder="{{ 'contact.form.message' | t }}">{% if form.body %}{{ form.body }}{% endif %}</textarea>
+                <textarea required rows="10" id="contactFormMessage" name="contact[body]" placeholder="{{ 'contact.form.message' | t }}*">{% if form.body %}{{ form.body }}{% endif %}</textarea>
                 <input type="submit" class="btn right" value="{{ 'contact.form.send' | t }}">
               </div>
               {% endform %}
