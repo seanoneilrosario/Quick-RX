@@ -956,7 +956,11 @@ $(document).ready(function() {
   console.log(window.location.pathname)
    if (!$('body').hasClass("customer-logged-in")) {
      if (window.location.pathname.includes('product')) {
-        window.location.replace("https://quickrx.com.au/account/login");
+        if (window.location.pathname.includes('mynicotineclinic')) {
+         console.log('open');
+       } else {
+         window.location.replace("https://quickrx.com.au/account/login");
+       }
       }
    }
 });
