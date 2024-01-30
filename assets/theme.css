@@ -4544,7 +4544,7 @@ body.template-search.search-open .page-wrapper::after{
     }
 .header_1_wrapper .header_logo_wrap .header-logo {
   width: 100%;
-  margin: 0 0 0 auto;
+  margin: 0 auto;
   line-height: 0;
   max-width: fit-content;
 }
