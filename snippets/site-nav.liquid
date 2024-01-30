@@ -3,6 +3,12 @@
   {% comment %}
   Read the links from the menu passed in from {% include 'site-nav' ... %}
   {% endcomment %}
+  {% if customer %}
+  {% else %}
+    <li class="menu-item-depth-0">
+      <a class="site-nav__link site-nav__linknodrop" href="/account/login">Login</a>
+    </li>
+  {% endif %}
   {% for link in navMenu.links %}
   <li class="menu-item-depth-0{% if link.active %} site-nav--active{% endif %}">
     <a href="{{ link.url }}" class="site-nav__link{% if has_dropdown == false %} site-nav__linknodrop{% endif %}">{{ link.title }}</a>
