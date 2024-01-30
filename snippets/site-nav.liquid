@@ -18,31 +18,6 @@
         <i class="mdi mdi-chevron-up" aria-hidden="true"></i>
       </span>
     </span>
-    {% assign flg = 0 %}  
-    {% for sub_link in link.links %}
-    {% if sub_link.links != blank and link.links.size > 1 %}
-    {% assign flg = 1 %}  
-    {% endif %}
-    {% endfor %}
-    <ul class="sub-nav__dropdown {% if flg == 1 %} mega-menu {% endif %} sub-menu mobile-nav__sublist items_{{ link.links.size }}">
-      {% if link.links.size > 0 %}
-      {% for sub_link in link.links %}
-      <li class="menu-item-depth-1 {% if sub_link.links != blank %} site-nav--has-dropdown {% endif %}{% if sub_link.child_active %}site-nav--active site-nav__child-link--active{% endif %}">
-        <a href="{{ sub_link.url }}" class="site-nav__link">{{ sub_link.title | escape }}
-        </a>
-        {% if sub_link.links != blank %}
-        <ul class="sub-sub-nav__dropdown sub-menu mobiles-nav__sublist">
-          {% for sub_sub_link in sub_link.links %}
-          <li {% unless template.name == 'index' %}{% if sub_sub_link.child_active %}class="site-nav--active site-nav__child-link--active"{% endif %}{% endunless %}>
-            <a href="{{ sub_sub_link.url }}" class="site-nav__link">{{ sub_sub_link.title | escape }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-        {% endif %}
-      </li>
-      {% endfor %}
-      {% endif %}
-    </ul>
   </li>
   {% else %}
   {% if link.title == "-" %}
