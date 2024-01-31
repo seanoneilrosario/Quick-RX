@@ -1949,8 +1949,7 @@ main.main-content {
 }
 
 .customer_name,
-.customer_address,
-.customer_phone {
+.customer_address {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -1960,7 +1959,7 @@ main.main-content {
     flex-wrap: wrap;
 }
 
-.customer_company {
+.customer_phone {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
