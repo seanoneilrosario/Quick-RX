@@ -66,10 +66,6 @@
             <h3><b>Phone:</b></h3>
           {% for address in customer.addresses %}{% if address.phone != empty %} <h4>{{ address.phone }}</h4>{% endif %}{% endfor %}
           </div>
-          <div class="customer_company">
-            <h3><b>Company:</b></h3>
-            {% for address in customer.addresses %}{% if address.company != empty %} <h4>{{ address.company }}</h4>{% endif %}{% endfor %}
-          </div>
         </div>
       </div>
     </div>
