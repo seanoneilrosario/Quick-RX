@@ -4409,9 +4409,6 @@ body.template-search.search-open .page-wrapper::after{
   width: 100%;
 }
 .header_1_wrapper {
-  position: relative;
-  z-index: 2;
-  float: left;
   width: 100%;
   /* box-shadow: -1px 1px 2px 0 #e5e5e5;
   -webkit-box-shadow: -1px 1px 2px 0 #e5e5e5;
