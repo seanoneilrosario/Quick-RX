@@ -4475,7 +4475,6 @@ body.template-search.search-open .page-wrapper::after{
   width: 1px;
 }
 .header_1_wrapper .main-header {
-  float: left;
   width: 100%;
   text-align:center;
 }
