@@ -13391,11 +13391,8 @@ a.product-t {
     text-align: left;
   }
   #tt-megamenu #accessibleNav>li.more_menu .site-nav__link{
-    font: 400 13px/17px var(--font-stack-body);
-      float: left;
       width: 100%;
       padding: 10px 20px;
-      color: #111;
       }
   #accessibleNav li .sub-nav__dropdown.sub-menu li.menu-item-depth-1{
     padding:5px 0;
