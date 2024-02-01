@@ -280,7 +280,7 @@
       "header-model-1": {
         "type": "header-model-1",
         "settings": {
-          "sticky_header": true,
+          "sticky_header": false,
           "color_menu_bg": "#6229aa",
           "top_bg_color": "#f1f3f8",
           "top_header_text_color": "#666666",
