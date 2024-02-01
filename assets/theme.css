@@ -13382,10 +13382,10 @@ a.product-t {
     display: none;
   }
   #accessibleNav .more_menu ul.sub-menu {
-    display: block!important;
+    display: flex!important;
+    flex-direction: column;
     margin: 0;
     padding: 0;
-    float: left;
     width: 100%;
     text-align: left;
   }
