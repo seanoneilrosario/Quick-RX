@@ -121,5 +121,17 @@
         </div>
       </div>
     </div>
+    <div class="update-pres">
+      <div class="pres_box">
+        <h2>PRESCRIPTIONS HISTORY</h2>
+      </div>
+      <div class="box-details">
+        <div class="details-contents">
+          {% for tag in customer.tags %}
+            {{ tag }}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 </div>
