@@ -13210,7 +13210,8 @@ a.product-t {
   margin: 0;
   position:relative;
 }
-#accessibleNav>li>a {
+#accessibleNav>li>a,
+#accessibleNav ul li>a {
   font-size: 18px;
   font-weight: 600;
   font-family: 'Outfit', sans-serif;
