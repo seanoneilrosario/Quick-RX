@@ -100,6 +100,7 @@ main.main-content {
     position: fixed;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 18px -11px;
     background: #fff;
+    z-index: 9999999999999;
 }
 
 #accessibleNav>li>a:before {
