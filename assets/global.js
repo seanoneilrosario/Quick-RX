@@ -1225,7 +1225,6 @@ $('.test_btn').click(function(){
 const options = {
   method: 'GET',
   headers: {
-    'X-com-zoho-subscriptions-organizationid': '7003117841',
     Authorization: 'Zoho-oauthtoken 1000.e27454c6c41d7d3c9f34ef85d2e67093.b11e5c385e9c6247f0ab972eb87ebd87'
   }
 };
