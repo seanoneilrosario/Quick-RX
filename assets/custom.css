@@ -95,13 +95,19 @@ main.main-content {
   z-index: 99999999 !important;
 }
 
-.header_1_wrapper .main-header {
+.site-header.header_1 {
     top: 0 !important;
     position: fixed;
     left: 0;
     box-shadow: rgba(0, 0, 0, 0.75) 0px 5px 18px -11px;
     background: #fff;
     z-index: 9999999999999;
+    width: 100%;
+}
+
+.header_1_wrapper .main-header {
+    background: #fff;
+    width: 100%;
 }
 
 #accessibleNav>li>a:before {
