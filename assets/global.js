@@ -1220,15 +1220,3 @@ $('.test_btn').click(function(){
     console.log(json)
   });
 });
-
-
-const options = {
-  method: 'GET',
-  headers: {
-    Authorization: 'Zoho-oauthtoken 1000.e27454c6c41d7d3c9f34ef85d2e67093.b11e5c385e9c6247f0ab972eb87ebd87'
-  }
-};
-fetch('https://crm.zoho.com.au/crm/v1/CustomModule2/60016000001784039/Attachments', options)
-  .then(response => response.json())
-  .then(response => console.log(response))
-  .catch(err => console.error(err));
