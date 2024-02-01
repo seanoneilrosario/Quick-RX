@@ -128,7 +128,7 @@
       <div class="box-details">
         <div class="details-contents">
           {% for tag in customer.tags %}
-            <h5>{{ tag }}</h5>
+            <h5>{{ tag | remove: '[' | remove: '"' }}</h5>
           {% endfor %}
         </div>
       </div>
