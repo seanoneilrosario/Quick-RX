@@ -126,7 +126,11 @@
       <div class="box-details">
         <div class="details-contents">
           {% for tag in customer.tags %}
-            <h4><a target="_blank" href="{{ tag | remove: '[' | remove: '"' | remove: ']' }}">MY PRESCRIPTION HISTORY FOLDER<a/></h4>
+            {% if tag != empty %}
+              <h4><a target="_blank" href="{{ tag | remove: '[' | remove: '"' | remove: ']' }}">MY PRESCRIPTION HISTORY FOLDER<a/></h4>
+            {% else %}
+              <h4>NO HISTORY</h4>
+            {% endif %}
           {% endfor %}
         </div>
       </div>
