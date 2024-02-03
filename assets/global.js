@@ -959,19 +959,22 @@ $(document).ready(function() {
         if (window.location.pathname.includes('mynicotineclinic')) {
          console.log('open');
        } else {
+          if (window.location.pathname.includes('product')) {
+            window.location.replace("https://quickrx.com.au/account/login");
+         }
          window.location.replace("https://quickrx.com.au/account/login");
        }
       }
    }
 });
 
-$(document).ready(function() {
-   if (!$('body').hasClass("customer-logged-in")) {
-     if (window.location.pathname.includes('/products')) {
-        window.location.replace("https://quickrx.com.au");
-      }
-   }
-});
+// $(document).ready(function() {
+//    if (!$('body').hasClass("customer-logged-in")) {
+//      if (window.location.pathname.includes('/products')) {
+//         window.location.replace("https://quickrx.com.au");
+//       }
+//    }
+// });
 
 
 // slider
