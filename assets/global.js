@@ -962,6 +962,9 @@ $(document).ready(function() {
           if (window.location.pathname.includes('product')) {
             window.location.replace("https://quickrx.com.au/account/login");
          }
+          if (window.location.pathname.includes('collections')) {
+            window.location.replace("https://quickrx.com.au/account/login");
+         }
          window.location.replace("https://quickrx.com.au/account/login");
        }
       }
