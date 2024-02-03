@@ -955,7 +955,7 @@ $(document).ready(function() {
 $(document).ready(function() {
   console.log(window.location.pathname)
    if (!$('body').hasClass("customer-logged-in")) {
-     if (window.location.pathname.includes('product') || window.location.pathname.includes('collections')) {
+     if (window.location.pathname.includes('product')) {
         if (window.location.pathname.includes('mynicotineclinic')) {
          console.log('open');
        } else {
