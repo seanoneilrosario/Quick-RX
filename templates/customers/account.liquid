@@ -127,7 +127,7 @@
         <div class="box-details">
           <div class="details-contents">
             {% for tag in customer.tags %}
-                <!-- <h4><a target="_blank" href="{{ tag | remove: '[' | remove: '"' | remove: ']' }}">MY PRESCRIPTION HISTORY FOLDER<a/></h4> -->
+                <p>{{ tag }}</p>
             {% endfor %}
           </div>
         </div>
