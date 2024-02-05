@@ -128,12 +128,10 @@
           <div class="details-contents">
             {% for tag in customer.tags %}
               {{ tag }}
-                {% assign my_tag = tag | split "_" %}
-                <p>
-                  {% for tags in my_tag %}
-                    <span>{{ tags }}</span>
-                  {% endfor %}
-                </p>
+              {% assign my_tag = tag | split: "---" %}
+              {% for tags in my_tag %}
+                <span>{{ tags }}</span>
+              {% endfor %}
             {% endfor %}
           </div>
         </div>
