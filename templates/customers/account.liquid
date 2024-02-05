@@ -127,7 +127,12 @@
         <div class="box-details">
           <div class="details-contents">
             {% for tag in customer.tags %}
-                <p>{{ tag }}</p>
+                {% assign my_tag = tag | split "---" %}
+                <p>
+                  {% for tags in my_tag %}
+                    <span>{{ tags }}</span>
+                  {% endfor %}
+                </p>
             {% endfor %}
           </div>
         </div>
