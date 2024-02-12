@@ -11741,7 +11741,7 @@ body .compare-model .max_compare {
   width: 100%;
   position: relative;
   overflow: hidden;
-  color: #2C4C7B;
+  color: #333;
 }
 .product-wrapper .pro_btn .mdi{
   transition: 0.3s;
@@ -15950,7 +15950,7 @@ a.filter-left i{
       width: 100%;
       padding: 10px 10px;
       position: relative;
-      background: #77b6de;
+      background: #5997FA;
       border-radius: 10px;
       transition: all 400ms ease-in-out 0s;
       -webkit-transition: all 400ms ease-in-out 0s;
@@ -20192,7 +20192,7 @@ input[type=number]::-webkit-outer-spin-button {
   position: absolute;
   right: 0;
   height: 100%;
-  background: #2d4d7c;
+  background: #5997FA;
   border: none;
   color: #fff;
   padding: 0 20px;
