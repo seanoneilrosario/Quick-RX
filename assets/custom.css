@@ -1,32 +1,10 @@
-/* Fonts */
-@font-face {
-    font-family: 'TT Chocolates Trial Bold';
-    src: url('TT_Chocolates_Trial_Bold.eot');
-    src: url('TT_Chocolates_Trial_Bold.eot?#iefix') format('embedded-opentype'),
-         url('TT_Chocolates_Trial_Bold.otf') format('otf'),
-         url('TT_Chocolates_Trial_Bold.ttf') format('truetype'),
-         url('TT_Chocolates_Trial_Bold.woff') format('woff'),
-         url('TT_Chocolates_Trial_Bold.woff2') format('woff2');
-  }
-
-@font-face {
-    font-family: 'TT Chocolates Trial Regular';
-    src: url('TT_Chocolates_Trial_Regular.eot');
-    src: url('TT_Chocolates_Trial_Regular.eot?#iefix') format('embedded-opentype'),
-         url('TT_Chocolates_Trial_Regular.otf') format('otf'),
-         url('TT_Chocolates_Trial_Regular.ttf') format('truetype'),
-         url('TT_Chocolates_Trial_Regular.woff') format('woff'),
-         url('TT_Chocolates_Trial_Regular.woff2') format('woff2');
-  }
-  
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
     color: #2B2928;
-    font-family: 'TT Chocolates Trial Regular';
+    font-family: "Outfit", Sans-serif;
     font-size: 15px;
     font-weight: 300;
     line-height: 1.8;
@@ -38,7 +16,7 @@ main.main-content {
 }
 
 .btn_primary {
-    font-family: 'TT Chocolates Trial Regular';
+    font-family: "Outfit", Sans-serif;
     font-weight: 300;
     background-color: #5632FA;
     border-radius: 18px 18px 18px 18px;
@@ -53,7 +31,7 @@ main.main-content {
 }
 
 .secondary_primary {
-    font-family: 'TT Chocolates Trial Regular';
+    font-family: "Outfit", Sans-serif;
     font-weight: 300;
     background-color: #5997FA;
     border-radius: 8px;
@@ -137,7 +115,7 @@ main.main-content {
 }
 
 #accessibleNav>li:hover>a {
-    color: #81BBE1;
+    color: #5632FA;
 }
 
 .header_logo_wrap {
@@ -191,7 +169,7 @@ main.main-content {
 
     .login_wrap a {
         color: #2C4C7B;
-        font-family: 'TT Chocolates Trial Regular';
+        font-family: "Outfit", Sans-serif;
         font-weight: 600;
         font-size: 16px;
         letter-spacing: 0;
@@ -218,7 +196,7 @@ main.main-content {
         font-size: 16px;
         letter-spacing: 0;
         font-weight: 700;
-        font-family: 'TT Chocolates Trial Regular';
+        font-family: "Outfit", Sans-serif;
     }
 
 @media(min-width: 990px) {
@@ -302,16 +280,26 @@ main.main-content {
 }
 
 .hero-banner h3 {
+<<<<<<< HEAD
     color: #5997fa;
     font-family: 'TT Chocolates Trial Bold';
+=======
+    color: #5997FA;
+    font-family: "Outfit", Sans-serif;
+>>>>>>> e3715241ba1668d8f9fa06a1f1c75f4ad4cbb625
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .hero-banner h2 {
+<<<<<<< HEAD
     color: #5632fa;
     font-family: 'TT Chocolates Trial Bold';
+=======
+    color: #5632FA;
+    font-family: "Outfit", Sans-serif;
+>>>>>>> e3715241ba1668d8f9fa06a1f1c75f4ad4cbb625
     font-size: 30px;
     font-weight: 800;
     line-height: 1;
@@ -320,7 +308,7 @@ main.main-content {
 }
 
 .hero-banner a {
-    font-family: 'TT Chocolates Trial Regular';
+    font-family: "Outfit", Sans-serif;
     font-weight: 300;
     background-color: #77B6DE;
     border-radius: 18px 18px 18px 18px;
@@ -471,7 +459,7 @@ main.main-content {
             font-size: 15px;
             display: block;
             color: #fff;
-            font-family: 'TT Chocolates Trial Regular';
+            font-family: "Outfit", Sans-serif;
             font-weight: 400;
             text-transform: uppercase;
             background-color: #81BBE1;
@@ -590,8 +578,13 @@ main.main-content {
 
 .icon_item span {
     white-space: nowrap;
+<<<<<<< HEAD
     color: #333;
     font-family: 'TT Chocolates Trial Regular';
+=======
+    color: #2C4C7B;
+    font-family: "Outfit", Sans-serif;
+>>>>>>> e3715241ba1668d8f9fa06a1f1c75f4ad4cbb625
     font-size: 18px;
     font-weight: 500;
 }
@@ -623,7 +616,7 @@ main.main-content {
 }
 
     .contents_wrap h3 {
-        font-family: 'TT Chocolates Trial Bold';
+        font-family: "Outfit", Sans-serif;
         font-size: 28px;
         font-weight: 800;
         line-height: 1.2;
@@ -632,7 +625,7 @@ main.main-content {
 
     .contents_wrap p {
         color: inherit;
-        font-family: 'TT Chocolates Trial Regular';
+        font-family: "Outfit", Sans-serif;
         font-size: 14px;
         font-weight: 300;
         line-height: 1.8;
@@ -682,8 +675,7 @@ main.main-content {
 
 .first-row_left h4 {
     color: #2D4D7C;
-    font-family: 'TT Chocolates Trial Bold';
-    font-style: italic;
+    font-family: "Outfit", Sans-serif;
     font-size: 30px;
     font-weight: 900;
     line-height: 1.2;
@@ -692,7 +684,7 @@ main.main-content {
 
 .first-row_left p {
     color: #2B2928;
-    font-family: 'TT Chocolates Trial Regular';
+    font-family: "Outfit", Sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 1.8;
@@ -728,8 +720,7 @@ main.main-content {
 
 .first-right-row-contents h4 {
     color: #FFFFFF;
-    font-family: 'TT Chocolates Trial Bold';
-    font-style: italic;
+    font-family: "Outfit", Sans-serif;
     font-size: 28px;
     font-weight: 800;
     line-height: 1.2;
@@ -789,8 +780,7 @@ main.main-content {
 
  .second-row_left h4 {
     color: #fff;
-    font-family: 'TT Chocolates Trial Bold';
-    font-style: italic;
+    font-family: "Outfit", Sans-serif;
     font-size: 34px;
     font-weight: 800;
     line-height: 1.2;
@@ -821,8 +811,7 @@ main.main-content {
 
 .boxes h4 {
     color: #2B4C7B;
-    font-family: 'TT Chocolates Trial Bold';
-    font-style: italic;
+    font-family: "Outfit", Sans-serif;
     font-size: 29px;
     font-weight: 800;
     line-height: 1;
@@ -888,8 +877,7 @@ main.main-content {
 .third_row-first-col h4,
 .third_row-second-col h4 {
     color: #2C4C7B;
-    font-family: 'TT Chocolates Trial Bold';
-    font-style: italic;
+    font-family: "Outfit", Sans-serif;
     font-size: 25px;
     font-weight: 800;
     line-height: 1;
@@ -960,8 +948,7 @@ main.main-content {
 
 .parallax_content-wrap h4 {
     color: #FFFFFF;
-    font-family: 'TT Chocolates Trial Bold';
-    font-style: italic;
+    font-family: "Outfit", Sans-serif;
     font-size: 23px;
     font-weight: 800;
     line-height: 1;
@@ -1047,7 +1034,7 @@ main.main-content {
 
 .logo-slider h2 {
     color: #2D4D7C;
-    font-family: 'TT Chocolates Trial Bold';
+    font-family: "Outfit", Sans-serif;
     font-size: 28px;
     font-weight: 800;
     text-align: center;
@@ -1117,7 +1104,7 @@ main.main-content {
 
 .feat-blog-post h2 {
     color: #2D4D7C;
-    font-family: 'TT Chocolates Trial Bold';
+    font-family: "Outfit", Sans-serif;
     font-size: 28px;
     font-weight: 800;
     text-align: center;
@@ -1294,7 +1281,7 @@ main.main-content {
 
 .cta-bar_contents h3 {
     color: #FFFFFF;
-    font-family: 'TT Chocolates Trial Bold';
+    font-family: "Outfit", Sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
@@ -1342,7 +1329,7 @@ main.main-content {
     padding: 4px 15px;
     border-radius: 15px;
     color: #FFFFFF;
-    font-family: 'TT Chocolates Trial Regular';
+    font-family: "Outfit", Sans-serif;
     font-size: 12px;
     font-weight: 300;
   }
@@ -1384,7 +1371,7 @@ main.main-content {
 
   .booking_text h3 {
     color: #2C4C7B;
-    font-family: 'TT Chocolates Trial Bold';
+    font-family: "Outfit", Sans-serif;
     font-size: 22px;
     font-weight: 900;
     margin: 0 20px 20px;
@@ -1494,14 +1481,14 @@ main.main-content {
 
 .box_item h3 {
     color: #2C4C7B;
-    font-family: 'TT Chocolates Trial Bold';
+    font-family: "Outfit", Sans-serif;
     font-size: 18px;
     font-weight: 900;
 }
 
 .box_item h2 {
     color: #77B6DE;
-    font-family: 'TT Chocolates Trial Bold';
+    font-family: "Outfit", Sans-serif;
     font-size: 45px;
     font-weight: 900;
     margin: 0;
