@@ -1,1 +1,244 @@
-{"sections":{"475ba417-2210-4be0-8bda-4108799fe41d":{"type":"hero-banner","settings":{"image_banner":"shopify:\/\/shop_images\/banner.png","sub_title":"WELCOME TO QUICKRX","title":"Fast & Seamless, It’s the Quick Rx Pharmacy Way.","button_title":"","button_link":"\/account\/register"}},"16631550897b501cb1":{"type":"sticky-mobile-bar","disabled":true,"settings":{"mobile_bar":true,"url_1":"https:\/\/themes-warehouse.myshopify.com\/","title_1":"Home","url_2":"shopify:\/\/collections","title_2":"Category","url_3":"https:\/\/themes-warehouse.myshopify.com\/cart","title_3":"Cart","url_4":"https:\/\/themes-warehouse.myshopify.com\/account\/login","title_4":"Account","url_5":"shopify:\/\/pages\/wishlist","title_5":"Wishlist"}},"dfa32f02-12fe-4a0d-a16a-0232d71b8960":{"type":"icons-text","blocks":{"25a03b70-2d95-4971-b980-0db16dab2701":{"type":"icons","settings":{"icon_image":"shopify:\/\/shop_images\/output-onlinepngtools_4.png","icon_title":"Extensive product range"}},"9b8a9833-81c3-4c46-81d7-9422bd49be97":{"type":"icons","settings":{"icon_image":"shopify:\/\/shop_images\/output-onlinepngtools_5.webp","icon_title":"TGO 110 compliant"}},"b25b76cb-2f2f-4edd-a4b3-6a21f88c8a26":{"type":"icons","settings":{"icon_image":"shopify:\/\/shop_images\/output-onlinepngtools_2.png","icon_title":"Fast delivery Australia-wide"}}},"block_order":["25a03b70-2d95-4971-b980-0db16dab2701","9b8a9833-81c3-4c46-81d7-9422bd49be97","b25b76cb-2f2f-4edd-a4b3-6a21f88c8a26"],"settings":{"bg_color":"#f8f8f8"}},"3c2ff592-a431-46a7-b3ec-d1383953b656":{"type":"contens-image-blocks","blocks":{"bbaf2b25-4a6d-4dcf-bd31-8c31c8aae621":{"type":"first","settings":{"left_text":"Why choose Vapelabs?","left_contents":"<p>At Vapelabs, we pride ourselves on being the premier choice for your B2B wholesale needs. Here’s why businesses across Australia choose us as their partners.<\/p>","right_title":"Unparralleled Product Selection","right_contents":"<p>Our wide selection of devices and e-liquids are all compliant with TGO 110 standards.<\/p>"}},"3d0378ec-7e4f-4762-8e8d-f9ecde5a68a0":{"type":"second","settings":{"bg_col1":"#ffffff","bg_col2":"#001a3e","bg_col3":"#2b4c7b","bg_col4":"#ffffff","left_title":"Intuitive Dashboard & Business Profile","right_first_box_title":"Order with ease","right_first_box_content":"<p>B2B transactions require seamless processes. You can easily place, track, and manage your orders with Vapelabs' user-friendly ordering system.<\/p>"}},"9f47c712-7304-4f84-8791-0db7f4b20b85":{"type":"third","settings":{"first_bg_col":"#ffffff","second_bg_col":"#001a3d","third_left_text":"Get Products Faster.","third_left_contents":"<p>Say goodbye to unnecessary delays and experience the convenience of a well-coordinated supply chain. No matter where you’re located in Australia, Vapelabs ensures prompt and reliable shipping.<\/p>","third_right_title":"Dedicated Support","third_right_contents":"<p>At Vapelabs, we believe in building lasting relationships with our partners. From answering your queries to providing personalised guidance, we strive to ensure your business thrives with Vaplabs as your trusted wholesaler.<\/p>"}}},"block_order":["bbaf2b25-4a6d-4dcf-bd31-8c31c8aae621","3d0378ec-7e4f-4762-8e8d-f9ecde5a68a0","9f47c712-7304-4f84-8791-0db7f4b20b85"],"disabled":true,"settings":{}},"084ee365-c6d4-419d-8d90-c578dc6949fe":{"type":"image-with-text","settings":{"id":"about","bg_color":"#ffffff","heading_color":"#2d4d7c","color_text":"#2b2928","image_aligment":"left","image":"shopify:\/\/shop_images\/2.png","heading":"About QuickRX","contents":"<p>QuickRX is an online pharmacy specialising in smoking cessation products only. We strive to provide safe and seamless online dispensing experiences through product knowledge and quality customer service. In collaboration with Australian medical services and suppliers, we offer a full range of smoking cessation options stocked here in Australia and ready for dispensing.<\/p>","btn_text":"","btn_link":"\/account\/register"}},"e1e7994b-7c11-4201-a901-d971d1c4118e":{"type":"image-with-text","settings":{"id":"focus","bg_color":"#ffffff","heading_color":"#2d4d7c","color_text":"#2b2928","image_aligment":"right","image":"shopify:\/\/shop_images\/1.png","heading":"Our Focus","contents":"<p>At Quick Rx Pharmacy, our focus is on our patients. With their needs always in mind, our dedicated team works diligently to dispense and deliver high-quality products. As a leading online pharmacy, all Quick Rx Pharmacy medicines meet the TGA TGO 110 compliance requirements.  We only source from existing Australian suppliers and sponsors.<\/p>","btn_text":"","btn_link":"\/account\/register"}},"57dfba87-ecd8-4166-87b9-7deaf2b0c3ba":{"type":"cta-parallax-banner","disabled":true,"settings":{"heading":"Book your free training session with our Nicotine Vaping Product specialists.","content":"<p>Request a chat with our dedicated Account Managers and experience personalised support tailored to your unique needs. Our team of experts is committed to assisting you every step of the way, whether you require a training session on NVP products or onboarding assistance.<\/p><p>Book your free training session with our Nicotine Vaping Product specialist today.<\/p>","button_title":"BOOK NOW","button_link":"https:\/\/book.vapelabs.com.au\/#\/customer\/nvp"}},"acd5a8e8-8b2b-43bf-bc28-ecc3828cc686":{"type":"testimonials","blocks":{"a5bb42c8-0d83-469a-8700-bf46d5f07307":{"type":"testimony","settings":{"title":"","content":"<p>Awesome pharmacy! They're products are great, all products are safe. They have been such a big part of me quitting cigarettes. Would recommend to anyone. I don't buy these products anywhere else.<\/p>","name":"Niemann M."}},"d1153d57-cdf8-49af-a8c7-81db89984faa":{"type":"testimony","settings":{"title":"","content":"<p>Great service for smoking cessation. At least you know what you are getting, vs. illegal over the counter vapes that contain chemicals such as formaldehyde and heavy metals such as lead, tin and nickel.<\/p>","name":"Morris P."}},"3b1ba86b-9f81-4a12-922c-52d0cebbcc53":{"type":"testimony","settings":{"title":"","content":"<p>I smoked cigarettes for 15 years until a mate introduced me to prescription nicotine vaping as a way to get off the ciggies. I had quit in short stints before and it was always a struggle quitting with patches or cold turkey or champix but switching to vape was easy! It didn't even feel like quitting. It kinda felt like upgrading to a better way to smoke but with no coughing, no stinking like an ashtray or making my car stink AND I can even vape inside on the couch. They supply nicotine directly from the pharmacy.  I ordered on Monday it's delivered on Wednesday which is awesome.  I went from nearly 40 bucks a day on ciggies to 50 bucks a month.<\/p>","name":"Saunders J."}},"96ba1be5-9f54-4114-b3f1-4d1f3ccc340a":{"type":"testimony","settings":{"title":"","content":"<p>I have given up smoking after many years. I feel heaps better and a lot fitter already.<br\/><br\/>Service is amazing. Don’t hestitate just give it a go.<\/p>","name":"Derepas G."}},"e693236e-7641-4ef9-ab56-d46aec2f082e":{"type":"testimony","settings":{"title":"","content":"<p>Always fast and reliable! Ordered yesterday and received today. The process is so easy and user friendly.<\/p>","name":"Groves J."}}},"block_order":["a5bb42c8-0d83-469a-8700-bf46d5f07307","d1153d57-cdf8-49af-a8c7-81db89984faa","3b1ba86b-9f81-4a12-922c-52d0cebbcc53","96ba1be5-9f54-4114-b3f1-4d1f3ccc340a","e693236e-7641-4ef9-ab56-d46aec2f082e"],"settings":{"heading":"What our customers say"}},"759563d6-ac26-44c4-82ff-94593b999598":{"type":"image-with-text","settings":{"id":"prescription","bg_color":"#2c4c7b","heading_color":"#ffffff","color_text":"#ffffff","image_aligment":"left","image":"shopify:\/\/shop_images\/3.png","heading":"Patient Prescription","contents":"<p>Patients looking at filling their prescriptions online with QuickRX can send their script to dispense@quickrx.com.au <\/p>","btn_text":"GET IN TOUCH","btn_link":"#contact"}},"6f1ed01b-babf-481e-9876-45e188b68879":{"type":"contact-form","settings":{"heading":"Get in touch","text_intro":"Our pharmacist is here to support you in your health journey. They can assist with giving the right advice about Nicotine prescriptions and products.  Call us on 1300 634 105.  We are here to help.","map_height":"0","map_api_key":"","map_type":"ROADMAP","map_address":"","map_custom_style":""}}},"order":["475ba417-2210-4be0-8bda-4108799fe41d","16631550897b501cb1","dfa32f02-12fe-4a0d-a16a-0232d71b8960","3c2ff592-a431-46a7-b3ec-d1383953b656","084ee365-c6d4-419d-8d90-c578dc6949fe","e1e7994b-7c11-4201-a901-d971d1c4118e","57dfba87-ecd8-4166-87b9-7deaf2b0c3ba","acd5a8e8-8b2b-43bf-bc28-ecc3828cc686","759563d6-ac26-44c4-82ff-94593b999598","6f1ed01b-babf-481e-9876-45e188b68879"]}
+{
+  "sections": {
+    "475ba417-2210-4be0-8bda-4108799fe41d": {
+      "type": "hero-banner",
+      "settings": {
+        "image_banner": "shopify:\/\/shop_images\/banner.png",
+        "sub_title": "WELCOME TO QUICKRX",
+        "title": "Fast & Seamless, It’s the Quick Rx Pharmacy Way.",
+        "button_title": "",
+        "button_link": "\/account\/register"
+      }
+    },
+    "16631550897b501cb1": {
+      "type": "sticky-mobile-bar",
+      "disabled": true,
+      "settings": {
+        "mobile_bar": true,
+        "url_1": "https:\/\/themes-warehouse.myshopify.com\/",
+        "title_1": "Home",
+        "url_2": "shopify:\/\/collections",
+        "title_2": "Category",
+        "url_3": "https:\/\/themes-warehouse.myshopify.com\/cart",
+        "title_3": "Cart",
+        "url_4": "https:\/\/themes-warehouse.myshopify.com\/account\/login",
+        "title_4": "Account",
+        "url_5": "shopify:\/\/pages\/wishlist",
+        "title_5": "Wishlist"
+      }
+    },
+    "dfa32f02-12fe-4a0d-a16a-0232d71b8960": {
+      "type": "icons-text",
+      "blocks": {
+        "25a03b70-2d95-4971-b980-0db16dab2701": {
+          "type": "icons",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/output-onlinepngtools_4.png",
+            "icon_title": "Extensive product range"
+          }
+        },
+        "9b8a9833-81c3-4c46-81d7-9422bd49be97": {
+          "type": "icons",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/output-onlinepngtools_5.webp",
+            "icon_title": "TGO 110 compliant"
+          }
+        },
+        "b25b76cb-2f2f-4edd-a4b3-6a21f88c8a26": {
+          "type": "icons",
+          "settings": {
+            "icon_image": "shopify:\/\/shop_images\/output-onlinepngtools_2.png",
+            "icon_title": "Fast delivery Australia-wide"
+          }
+        }
+      },
+      "block_order": [
+        "25a03b70-2d95-4971-b980-0db16dab2701",
+        "9b8a9833-81c3-4c46-81d7-9422bd49be97",
+        "b25b76cb-2f2f-4edd-a4b3-6a21f88c8a26"
+      ],
+      "settings": {
+        "bg_color": "#f8f8f8"
+      }
+    },
+    "3c2ff592-a431-46a7-b3ec-d1383953b656": {
+      "type": "contens-image-blocks",
+      "blocks": {
+        "bbaf2b25-4a6d-4dcf-bd31-8c31c8aae621": {
+          "type": "first",
+          "settings": {
+            "left_text": "Why choose Vapelabs?",
+            "left_contents": "<p>At Vapelabs, we pride ourselves on being the premier choice for your B2B wholesale needs. Here’s why businesses across Australia choose us as their partners.<\/p>",
+            "right_title": "Unparralleled Product Selection",
+            "right_contents": "<p>Our wide selection of devices and e-liquids are all compliant with TGO 110 standards.<\/p>"
+          }
+        },
+        "3d0378ec-7e4f-4762-8e8d-f9ecde5a68a0": {
+          "type": "second",
+          "settings": {
+            "bg_col1": "#ffffff",
+            "bg_col2": "#001a3e",
+            "bg_col3": "#2b4c7b",
+            "bg_col4": "#ffffff",
+            "left_title": "Intuitive Dashboard & Business Profile",
+            "right_first_box_title": "Order with ease",
+            "right_first_box_content": "<p>B2B transactions require seamless processes. You can easily place, track, and manage your orders with Vapelabs' user-friendly ordering system.<\/p>"
+          }
+        },
+        "9f47c712-7304-4f84-8791-0db7f4b20b85": {
+          "type": "third",
+          "settings": {
+            "first_bg_col": "#ffffff",
+            "second_bg_col": "#001a3d",
+            "third_left_text": "Get Products Faster.",
+            "third_left_contents": "<p>Say goodbye to unnecessary delays and experience the convenience of a well-coordinated supply chain. No matter where you’re located in Australia, Vapelabs ensures prompt and reliable shipping.<\/p>",
+            "third_right_title": "Dedicated Support",
+            "third_right_contents": "<p>At Vapelabs, we believe in building lasting relationships with our partners. From answering your queries to providing personalised guidance, we strive to ensure your business thrives with Vaplabs as your trusted wholesaler.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "bbaf2b25-4a6d-4dcf-bd31-8c31c8aae621",
+        "3d0378ec-7e4f-4762-8e8d-f9ecde5a68a0",
+        "9f47c712-7304-4f84-8791-0db7f4b20b85"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "084ee365-c6d4-419d-8d90-c578dc6949fe": {
+      "type": "image-with-text",
+      "settings": {
+        "id": "about",
+        "bg_color": "#ffffff",
+        "heading_color": "#2d4d7c",
+        "color_text": "#2b2928",
+        "image_aligment": "left",
+        "image": "shopify:\/\/shop_images\/2.png",
+        "heading": "About QuickRX",
+        "contents": "<p>QuickRX is an online pharmacy specialising in smoking cessation products only. We strive to provide safe and seamless online dispensing experiences through product knowledge and quality customer service. In collaboration with Australian medical services and suppliers, we offer a full range of smoking cessation options stocked here in Australia and ready for dispensing.<\/p>",
+        "btn_text": "",
+        "btn_link": "\/account\/register"
+      }
+    },
+    "e1e7994b-7c11-4201-a901-d971d1c4118e": {
+      "type": "image-with-text",
+      "settings": {
+        "id": "focus",
+        "bg_color": "#ffffff",
+        "heading_color": "#2d4d7c",
+        "color_text": "#2b2928",
+        "image_aligment": "right",
+        "image": "shopify:\/\/shop_images\/1.png",
+        "heading": "Our Focus",
+        "contents": "<p>At Quick Rx Pharmacy, our focus is on our patients. With their needs always in mind, our dedicated team works diligently to dispense and deliver high-quality products. As a leading online pharmacy, all Quick Rx Pharmacy medicines meet the TGA TGO 110 compliance requirements.  We only source from existing Australian suppliers and sponsors.<\/p>",
+        "btn_text": "",
+        "btn_link": "\/account\/register"
+      }
+    },
+    "57dfba87-ecd8-4166-87b9-7deaf2b0c3ba": {
+      "type": "cta-parallax-banner",
+      "disabled": true,
+      "settings": {
+        "heading": "Book your free training session with our Nicotine Vaping Product specialists.",
+        "content": "<p>Request a chat with our dedicated Account Managers and experience personalised support tailored to your unique needs. Our team of experts is committed to assisting you every step of the way, whether you require a training session on NVP products or onboarding assistance.<\/p><p>Book your free training session with our Nicotine Vaping Product specialist today.<\/p>",
+        "button_title": "BOOK NOW",
+        "button_link": "https:\/\/book.vapelabs.com.au\/#\/customer\/nvp"
+      }
+    },
+    "acd5a8e8-8b2b-43bf-bc28-ecc3828cc686": {
+      "type": "testimonials",
+      "blocks": {
+        "a5bb42c8-0d83-469a-8700-bf46d5f07307": {
+          "type": "testimony",
+          "settings": {
+            "title": "",
+            "content": "<p>Awesome pharmacy! They're products are great, all products are safe. They have been such a big part of me quitting cigarettes. Would recommend to anyone. I don't buy these products anywhere else.<\/p>",
+            "name": "Niemann M."
+          }
+        },
+        "d1153d57-cdf8-49af-a8c7-81db89984faa": {
+          "type": "testimony",
+          "settings": {
+            "title": "",
+            "content": "<p>Great service for smoking cessation. At least you know what you are getting, vs. illegal over the counter vapes that contain chemicals such as formaldehyde and heavy metals such as lead, tin and nickel.<\/p>",
+            "name": "Morris P."
+          }
+        },
+        "3b1ba86b-9f81-4a12-922c-52d0cebbcc53": {
+          "type": "testimony",
+          "settings": {
+            "title": "",
+            "content": "<p>I smoked cigarettes for 15 years until a mate introduced me to prescription nicotine vaping as a way to get off the ciggies. I had quit in short stints before and it was always a struggle quitting with patches or cold turkey or champix but switching to vape was easy! It didn't even feel like quitting. It kinda felt like upgrading to a better way to smoke but with no coughing, no stinking like an ashtray or making my car stink AND I can even vape inside on the couch. They supply nicotine directly from the pharmacy.  I ordered on Monday it's delivered on Wednesday which is awesome.  I went from nearly 40 bucks a day on ciggies to 50 bucks a month.<\/p>",
+            "name": "Saunders J."
+          }
+        },
+        "96ba1be5-9f54-4114-b3f1-4d1f3ccc340a": {
+          "type": "testimony",
+          "settings": {
+            "title": "",
+            "content": "<p>I have given up smoking after many years. I feel heaps better and a lot fitter already.<br\/><br\/>Service is amazing. Don’t hestitate just give it a go.<\/p>",
+            "name": "Derepas G."
+          }
+        },
+        "e693236e-7641-4ef9-ab56-d46aec2f082e": {
+          "type": "testimony",
+          "settings": {
+            "title": "",
+            "content": "<p>Always fast and reliable! Ordered yesterday and received today. The process is so easy and user friendly.<\/p>",
+            "name": "Groves J."
+          }
+        }
+      },
+      "block_order": [
+        "a5bb42c8-0d83-469a-8700-bf46d5f07307",
+        "d1153d57-cdf8-49af-a8c7-81db89984faa",
+        "3b1ba86b-9f81-4a12-922c-52d0cebbcc53",
+        "96ba1be5-9f54-4114-b3f1-4d1f3ccc340a",
+        "e693236e-7641-4ef9-ab56-d46aec2f082e"
+      ],
+      "settings": {
+        "heading": "What our customers say"
+      }
+    },
+    "759563d6-ac26-44c4-82ff-94593b999598": {
+      "type": "image-with-text",
+      "settings": {
+        "id": "prescription",
+        "bg_color": "#5997fa",
+        "heading_color": "#ffffff",
+        "color_text": "#ffffff",
+        "image_aligment": "left",
+        "image": "shopify:\/\/shop_images\/3.png",
+        "heading": "Patient Prescription",
+        "contents": "<p>Patients looking at filling their prescriptions online with QuickRX can send their script to dispense@quickrx.com.au <\/p>",
+        "btn_text": "GET IN TOUCH",
+        "btn_link": "#contact"
+      }
+    },
+    "6f1ed01b-babf-481e-9876-45e188b68879": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Get in touch",
+        "text_intro": "Our pharmacist is here to support you in your health journey. They can assist with giving the right advice about Nicotine prescriptions and products.  Call us on 1300 634 105.  We are here to help.",
+        "map_height": "0",
+        "map_api_key": "",
+        "map_type": "ROADMAP",
+        "map_address": "",
+        "map_custom_style": ""
+      }
+    }
+  },
+  "order": [
+    "475ba417-2210-4be0-8bda-4108799fe41d",
+    "16631550897b501cb1",
+    "dfa32f02-12fe-4a0d-a16a-0232d71b8960",
+    "3c2ff592-a431-46a7-b3ec-d1383953b656",
+    "084ee365-c6d4-419d-8d90-c578dc6949fe",
+    "e1e7994b-7c11-4201-a901-d971d1c4118e",
+    "57dfba87-ecd8-4166-87b9-7deaf2b0c3ba",
+    "acd5a8e8-8b2b-43bf-bc28-ecc3828cc686",
+    "759563d6-ac26-44c4-82ff-94593b999598",
+    "6f1ed01b-babf-481e-9876-45e188b68879"
+  ]
+}
