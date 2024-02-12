@@ -280,26 +280,16 @@ main.main-content {
 }
 
 .hero-banner h3 {
-<<<<<<< HEAD
     color: #5997fa;
     font-family: 'TT Chocolates Trial Bold';
-=======
-    color: #5997FA;
-    font-family: "Outfit", Sans-serif;
->>>>>>> e3715241ba1668d8f9fa06a1f1c75f4ad4cbb625
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 5px;
 }
 
 .hero-banner h2 {
-<<<<<<< HEAD
     color: #5632fa;
     font-family: 'TT Chocolates Trial Bold';
-=======
-    color: #5632FA;
-    font-family: "Outfit", Sans-serif;
->>>>>>> e3715241ba1668d8f9fa06a1f1c75f4ad4cbb625
     font-size: 30px;
     font-weight: 800;
     line-height: 1;
@@ -578,13 +568,8 @@ main.main-content {
 
 .icon_item span {
     white-space: nowrap;
-<<<<<<< HEAD
     color: #333;
     font-family: 'TT Chocolates Trial Regular';
-=======
-    color: #2C4C7B;
-    font-family: "Outfit", Sans-serif;
->>>>>>> e3715241ba1668d8f9fa06a1f1c75f4ad4cbb625
     font-size: 18px;
     font-weight: 500;
 }
