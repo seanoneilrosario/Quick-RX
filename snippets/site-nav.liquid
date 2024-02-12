@@ -60,8 +60,8 @@
       <a class="site-nav__link site-nav__linknodrop" href="/account/login">Login</a>
     </li>
     <li class="menu-item-depth-0">
-      <a class="site-nav__link site-nav__linknodrop" href="/account/register">
-        <svg style="margin-bottom: -1px;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 448 448">
+      <a class="site-nav__link site-nav__linknodrop reg_btn" href="/account/register">
+        <svg class="" style="margin-bottom: -1px;" xmlns="http://www.w3.org/2000/svg" version="1.1" width="20" height="20" viewBox="0 0 448 448">
           <title/>
           <g id="icomoon-ignore">
           </g>
@@ -71,3 +71,12 @@
     </li>
   {% endif %}
 </ul>
+<style>
+  .reg_btn path {
+    transition: 0.3s;
+  }
+
+  .reg_btn:hover path {
+    fill: #5632fa;
+  }
+</style>
