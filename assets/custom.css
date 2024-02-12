@@ -365,7 +365,7 @@ main.main-content {
 
             .footer-head_text h4 {
                 text-align: left;
-                color: #FFFFFF;
+                color: #5632FA;
                 font-family: "Roboto", Sans-serif;
                 font-size: 20px;
                 font-weight: 600;
@@ -466,15 +466,15 @@ main.main-content {
         }
 
         .footer-head_text {
-            width: 70%;
+            width: 100%;
         }
 
         .footer-head_gap {
-            width: 30%;
+            width: 0;
         }
 
         .footer-head_text h4 {
-            border-top-left-radius: 30px;
+            /* border-top-left-radius: 30px; */
             padding: 10px 40px;
             font-size: 26px;
         }
