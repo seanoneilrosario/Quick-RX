@@ -111,7 +111,7 @@
       "settings": {
         "id": "about",
         "bg_color": "#ffffff",
-        "heading_color": "#2d4d7c",
+        "heading_color": "#333333",
         "color_text": "#2b2928",
         "image_aligment": "left",
         "image": "shopify:\/\/shop_images\/2.png",
@@ -126,7 +126,7 @@
       "settings": {
         "id": "focus",
         "bg_color": "#ffffff",
-        "heading_color": "#2d4d7c",
+        "heading_color": "#333333",
         "color_text": "#2b2928",
         "image_aligment": "right",
         "image": "shopify:\/\/shop_images\/1.png",
