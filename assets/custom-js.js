@@ -1200,31 +1200,31 @@ $(document).ready(function() {
 
 });
 /*------------------------ END ------------------------*/
-function moremenu() { 
-  if(jQuery(document).width()<=1199){
-    var max_elem = 3;  
-  }
-  else
-  {
-    var max_elem = 5;      
-  }
-  var items = $("#accessibleNav > li");
-  var surplus = items.slice(max_elem, items.length);
-  surplus.wrapAll('<li class="more_menu site-nav--has-dropdown menu-item-depth-0"><ul class="top-link sub-nav__dropdown sub-menu mobile-nav__sublist">');
-  jQuery('.more_menu').prepend('<a href="#" class="level-top topmega-menu-link">More</a>');
-  jQuery('.more_menu').mouseover(function(){
-    jQuery(this).children('ul').addClass('shown-link');
-    jQuery('body').addClass('menu-open');
-  })
-  jQuery('.more_menu').mouseout(function(){
-    jQuery(this).children('ul').removeClass('shown-link');
-    jQuery('body').removeClass('menu-open');      
-  });
-  $("#accessibleNav").css('display', 'inlink-block');
-}
-jQuery(document).ready(function(){
-  moremenu();
-});
+// function moremenu() { 
+//   if(jQuery(document).width()<=1199){
+//     var max_elem = 3;  
+//   }
+//   else
+//   {
+//     var max_elem = 5;      
+//   }
+//   var items = $("#accessibleNav > li");
+//   var surplus = items.slice(max_elem, items.length);
+//   surplus.wrapAll('<li class="more_menu site-nav--has-dropdown menu-item-depth-0"><ul class="top-link sub-nav__dropdown sub-menu mobile-nav__sublist">');
+//   jQuery('.more_menu').prepend('<a href="#" class="level-top topmega-menu-link">More</a>');
+//   jQuery('.more_menu').mouseover(function(){
+//     jQuery(this).children('ul').addClass('shown-link');
+//     jQuery('body').addClass('menu-open');
+//   })
+//   jQuery('.more_menu').mouseout(function(){
+//     jQuery(this).children('ul').removeClass('shown-link');
+//     jQuery('body').removeClass('menu-open');      
+//   });
+//   $("#accessibleNav").css('display', 'inlink-block');
+// }
+// jQuery(document).ready(function(){
+//   moremenu();
+// });
 
 jQuery(window).scroll(function () {
   if(jQuery(document).height() > jQuery(window).height()){
