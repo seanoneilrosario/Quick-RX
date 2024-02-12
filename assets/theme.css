@@ -1182,7 +1182,7 @@ body,input,textarea,button,select {
   -moz-border-radius: 0px; 
   -webkit-border-radius: 0px; 
   -khtml-border-radius: 0px;
-  font-family: var(--font-stack-body);
+  font-family: 'TT Chocolates Trial Regular';
     font-size: var(--font-size-base);
       font-weight: 400;
       line-height: var(--font-line-height);
@@ -1192,7 +1192,6 @@ body,input,textarea,button,select {
         }
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-header-text);
-    font-family: var(--font-stack-body);
       line-height: 1.6;
       margin: 8px 0;
       }
