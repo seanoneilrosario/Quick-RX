@@ -18,7 +18,7 @@ main.main-content {
 .btn_primary {
     font-family: "Outfit", Sans-serif;
     font-weight: 300;
-    background-color: #81BBE1;
+    background-color: #5632FA;
     border-radius: 18px 18px 18px 18px;
     padding: 12px 24px;
     color: #fff;
@@ -26,14 +26,14 @@ main.main-content {
 }
 
 .btn_primary:hover {
-    background-color: #2d4d7c;
+    background-color: #5997FA;
     color: #fff;
 }
 
 .secondary_primary {
     font-family: "Outfit", Sans-serif;
     font-weight: 300;
-    background-color: #2d4d7c;
+    background-color: #5997FA;
     border-radius: 8px;
     padding: 12px 24px;
     color: #fff;
@@ -41,7 +41,7 @@ main.main-content {
 }
 
 .secondary_primary:hover {
-    background-color: #81BBE1;
+    background-color: #5632FA;
     color: #fff;
 }
 
