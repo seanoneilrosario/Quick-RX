@@ -359,7 +359,7 @@ main.main-content {
         .footer-head_text { 
             padding: 0;
             background-color: #fff;
-            margin-left: -1px;
+            /* margin-left: -1px; */
             width: 100%;
         }
 
@@ -475,7 +475,7 @@ main.main-content {
 
         .footer-head_text h4 {
             /* border-top-left-radius: 30px; */
-            padding: 10px 40px;
+            /* padding: 10px 40px; */
             font-size: 26px;
         }
 
