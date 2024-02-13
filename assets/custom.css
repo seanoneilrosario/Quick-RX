@@ -1193,7 +1193,7 @@ main.main-content {
 
 .testimonials h3,
 .testimonials p {
-    color: #fff;
+    color: #333;
 }
 
 .testimonials_slider {
@@ -1225,7 +1225,7 @@ main.main-content {
 
 .testimonial-slides {
     margin: 5px;
-    background-color: #5997FA;
+    background-color: #C0DEF9;
     border-radius: 20px;
     padding: 20px;
     height: auto !important;
@@ -1262,7 +1262,7 @@ main.main-content {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: #fff;
+    color: #333;
 }
 
 .img_and-name svg {
@@ -1818,12 +1818,12 @@ main.main-content {
 
 /* Contact */
 .contact-content {
-  background: #5997FA;
+  background: #C0DEF9;
   border-radius: 20px;
 }
 
 .contact-intro {
-  color: #fff;
+  color: #333;
 }
 
 
