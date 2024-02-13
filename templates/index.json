@@ -205,9 +205,9 @@
       "type": "image-with-text",
       "settings": {
         "id": "prescription",
-        "bg_color": "#5997fa",
-        "heading_color": "#ffffff",
-        "color_text": "#ffffff",
+        "bg_color": "#c0def9",
+        "heading_color": "#333333",
+        "color_text": "#333333",
         "image_aligment": "left",
         "image": "shopify:\/\/shop_images\/3.png",
         "heading": "Patient Prescription",
