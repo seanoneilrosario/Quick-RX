@@ -40,7 +40,7 @@ main.main-content {
 .btn_primary {
     font-family: 'TT Chocolates Trial Regular';
     font-weight: 300;
-    background-color: #5632FA;
+    background-color: #5997FA;
     border-radius: 18px 18px 18px 18px;
     padding: 12px 24px;
     color: #fff;
@@ -55,16 +55,16 @@ main.main-content {
 .secondary_primary {
     font-family: 'TT Chocolates Trial Regular';
     font-weight: 300;
-    background-color: #5997FA;
+    background-color: #c0defa;
     border-radius: 8px;
     padding: 12px 24px;
-    color: #fff;
+    color: #333;
     transition: 0.3s;
 }
 
 .secondary_primary:hover {
-    background-color: #5632FA;
-    color: #fff;
+    background-color: #5997FA;
+    color: #333;
 }
 
 .slick-arrow {
