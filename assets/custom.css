@@ -357,7 +357,7 @@ main.main-content {
 
 /* Footer */ 
 .footer {
-    background-color: #5632FA;
+    background-color: #C0DEF9;
     margin-top: 40px;
 }
 
@@ -387,7 +387,7 @@ main.main-content {
 
             .footer-head_text h4 {
                 text-align: left;
-                color: #FFFFFF;
+                color: #333;
                 font-family: 'TT Chocolates Trial Bold';
                 font-style: italic;
                 font-size: 20px;
@@ -395,7 +395,7 @@ main.main-content {
                 line-height: 1.2em;
                 margin: 0;
                 padding: 10px 15px;
-                background-color: #5632FA;
+                background-color: #C0DEF9;
             }
 
                 .footer-head_text h4 p {
@@ -404,7 +404,7 @@ main.main-content {
                 }
 
                     .footer-head_text h4 p strong {
-                        color: #200c78;
+                        color: #5997fa;
                     }
 
     .footer-logo_text {
@@ -422,7 +422,7 @@ main.main-content {
             }
 
             .footer-text_intro p {
-                color: #FFFFFF;
+                color: #333;
                 font-family: 'TT Chocolates Trial Regular';
                 font-size: 13px;
                 font-weight: 400;
@@ -448,7 +448,7 @@ main.main-content {
         }
 
         .footer-links h3 {
-            color: #fff;
+            color: #333;
             margin-bottom: 10px;
         }
 
@@ -460,7 +460,7 @@ main.main-content {
 
         .footer-menu_item a,
         .footer-menu_item span {
-            color: #fff;
+            color: #333;
             font-family: 'TT Chocolates Trial Regular';
             font-weight: 300;
             margin-bottom: 7px;
