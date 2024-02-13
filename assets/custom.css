@@ -642,6 +642,10 @@ main.main-content {
     .contents_wrap p:last-of-type {
         margin-bottom: 30px;
     }
+
+.image_wrap img {
+  border-radius: 30px;
+}
 @media(min-width:990px) {
     .image_text.right {
         flex-direction: row-reverse;
