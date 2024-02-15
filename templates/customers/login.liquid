@@ -69,14 +69,14 @@
         </div>
 
       {% endif %}
-      <div class="text-center">
+      <div class="text-center" style="display: flex;">
         <p>
           <input type="submit" class="btn_primary" value="{{ 'customer.login.sign_in' | t }}">
         </p>
-      </div>
-       <a class="site-nav__link site-nav__linknodrop reg_btn" href="/account/register">
+        <a class="site-nav__link site-nav__linknodrop reg_btn" href="/account/register">
           <span class="btn_primary">Register</span>
         </a>
+      </div>
 
     {% endform %}
 
