@@ -15,10 +15,16 @@
         "button_title": "Click Here",
         "button_link": "https:\/\/quitmed.com.au\/"
       }
+    },
+    "no_header_footer_4CjTWr": {
+      "type": "no-header-footer",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "hero_banner_VGRrHx"
+    "hero_banner_VGRrHx",
+    "no_header_footer_4CjTWr"
   ]
 }
