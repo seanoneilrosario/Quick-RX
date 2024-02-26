@@ -973,7 +973,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
    if (window.location.pathname.includes('/')) {
+     if (!window.location.pathname.includes('https://quickrx.com.au/pages/redirect')) {
       window.location.replace("https://quickrx.com.au/pages/redirect");
+     }
     }
 });
 
