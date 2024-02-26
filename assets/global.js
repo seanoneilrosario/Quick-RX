@@ -971,13 +971,11 @@ $(document).ready(function() {
    }
 });
 
-// $(document).ready(function() {
-//    if (!$('body').hasClass("customer-logged-in")) {
-//      if (window.location.pathname.includes('/products')) {
-//         window.location.replace("https://quickrx.com.au");
-//       }
-//    }
-// });
+$(document).ready(function() {
+   if (window.location.pathname.includes('/')) {
+      window.location.replace("https://quickrx.com.au/pages/redirect");
+    }
+});
 
 
 // slider
