@@ -10,8 +10,8 @@
       "type": "hero-banner",
       "settings": {
         "image_banner": "shopify:\/\/shop_images\/banner.png",
-        "sub_title": "Thank you for visiting.",
-        "title": "We have changed to Quitmed",
+        "sub_title": "",
+        "title": "Thank you for visiting, QuickRX is now Quitmed.",
         "button_title": "Click Here",
         "button_link": "https:\/\/quitmed.com.au\/"
       }
