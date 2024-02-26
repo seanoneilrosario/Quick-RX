@@ -2,11 +2,23 @@
   "sections": {
     "main": {
       "type": "page",
+      "disabled": true,
       "settings": {
+      }
+    },
+    "hero_banner_VGRrHx": {
+      "type": "hero-banner",
+      "settings": {
+        "image_banner": "shopify:\/\/shop_images\/banner.png",
+        "sub_title": "Click the link below",
+        "title": "We have change name",
+        "button_title": "Click Here",
+        "button_link": "https:\/\/quitmed.com.au\/"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_banner_VGRrHx"
   ]
 }
