@@ -10,8 +10,8 @@
       "type": "hero-banner",
       "settings": {
         "image_banner": "shopify:\/\/shop_images\/banner.png",
-        "sub_title": "Please visit the link below",
-        "title": "Thank you for visiting, We have change name.",
+        "sub_title": "Thank you for visiting.",
+        "title": "You will be redirected to our new and improved website.",
         "button_title": "Click Here",
         "button_link": "https:\/\/quitmed.com.au\/"
       }
