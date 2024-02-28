@@ -974,7 +974,9 @@ $(document).ready(function() {
 $(document).ready(function() {
    if (window.location.pathname.includes('/')) {
      if (!window.location.pathname.includes('redirect')) {
-      window.location.replace("https://quickrx.com.au/pages/redirect");
+       if (!window.location.pathname.includes('mynicotineclinic')) {
+          window.location.replace("https://quickrx.com.au/pages/redirect");
+       }
      }
     }
 });
